@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Task Board</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="project.css">
+</head>
+
+<body>
+    <section id="titleSection">
+        <h1 id="titleH1">My Task Board</h1>
+    </section>
+    <section id="textBoard">
+        <textarea id="textarea" cols="5" rows="5"></textarea>
+        <br>
+        <input type="date" id="date">
+        <input type="time" id="time">
+        <br>
+        <br>
+        <button class="btn btn-info" id="saveButton" onclick="saveNewTask()">Save Task</button>
+        <br>
+        <br>
+        <button class="btn btn-info" id="clearButton" onclick="clearTaskBoard()">clear Task board</button>
+    </section>
+    <footer id="noteSection" class="w3-animate-opacity">
+
+    </footer>
+    <script src="project.js"></script>
+</body>
+
+</html>
